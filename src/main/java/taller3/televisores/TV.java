@@ -73,12 +73,12 @@ public class TV {
         this.control = control;
     }
     
-    int numTV;
-    public int getNumTV(){
+    static int numTV;
+    public static int getNumTV(){
         return numTV;
     }
-    public void setNumTV(int numTV){
-        this.numTV=numTV;
+    public static void setNumTV(int numTV){
+        TV.numTV=numTV;
     }
     
     public void turnOn(){
