@@ -55,7 +55,7 @@ public class TV {
     public void setVolumen(int volumen) {
         this.volumen = volumen;
     }
-
+    
     public boolean getEstado() {
         return estado;
     }
@@ -74,6 +74,9 @@ public class TV {
     }
     
     int numTV;
+    public int getNumTV(){
+        return numTV;
+    }
     public void setNumTV(int numTV){
         this.numTV=numTV;
     }
